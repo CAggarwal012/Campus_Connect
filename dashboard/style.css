@@ -1,0 +1,61 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background-color: #F8F7FF; color: #0F172A; }
+
+.navbar { background-color: #ffffff; border-bottom: 2px solid #EDE9FE; padding: 14px 40px; display: flex; align-items: center; gap: 30px; }
+.navbar .logo { font-size: 20px; font-weight: bold; color: #7C3AED; text-decoration: none; margin-right: 20px; }
+.navbar a { text-decoration: none; color: #0F172A; font-size: 14px; font-weight: 500; }
+.navbar a:hover { color: #7C3AED; }
+.navbar .nav-btn { margin-left: auto; background-color: #7C3AED; color: #ffffff; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: bold; }
+
+.page-wrap { padding: 36px 40px 60px 40px; }
+
+/* WELCOME HEADER */
+.welcome-header { display: flex; align-items: center; gap: 16px; margin-bottom: 28px; background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 14px; padding: 20px 24px; }
+.welcome-header img { width: 60px; height: 60px; border-radius: 12px; object-fit: cover; border: 3px solid #EDE9FE; }
+.welcome-header h1 { font-size: 22px; font-weight: bold; color: #0F172A; }
+.welcome-header p { font-size: 13px; color: #64748B; margin-top: 2px; }
+.header-actions { margin-left: auto; display: flex; gap: 10px; }
+.btn-primary { background-color: #7C3AED; color: #ffffff; padding: 8px 18px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: bold; }
+.btn-secondary { background-color: #EDE9FE; color: #5B21B6; padding: 8px 18px; border-radius: 8px; text-decoration: none; font-size: 13px; font-weight: bold; }
+
+/* STATS */
+.stats-row { display: flex; gap: 16px; margin-bottom: 28px; }
+.stat-card { flex: 1; background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 12px; padding: 20px; text-align: center; }
+.stat-card .icon { font-size: 24px; margin-bottom: 6px; }
+.stat-card .value { font-size: 22px; font-weight: bold; color: #7C3AED; }
+.stat-card .name { font-size: 12px; color: #64748B; margin-top: 2px; }
+
+/* LAYOUT */
+.dashboard-layout { display: flex; gap: 24px; align-items: flex-start; }
+.main-col { flex: 1; }
+.side-col { width: 300px; flex-shrink: 0; }
+
+/* SECTION TITLE */
+.section-title { font-size: 16px; font-weight: bold; color: #0F172A; margin-bottom: 14px; }
+
+/* EVENT ROW */
+.event-row { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 12px; padding: 14px 16px; display: flex; gap: 14px; align-items: center; margin-bottom: 10px; }
+.event-row img { width: 56px; height: 56px; border-radius: 8px; object-fit: cover; flex-shrink: 0; }
+.event-row .info { flex: 1; }
+.event-row .info h3 { font-size: 14px; font-weight: bold; color: #0F172A; margin-bottom: 3px; }
+.event-row .info p { font-size: 12px; color: #64748B; }
+.badge { display: inline-block; background-color: #EDE9FE; color: #7C3AED; font-size: 11px; font-weight: bold; padding: 2px 8px; border-radius: 10px; margin-top: 4px; }
+.badge-green { background-color: #DCFCE7; color: #16A34A; }
+.badge-yellow { background-color: #FEF3C7; color: #92400E; }
+
+/* NOTIF CARD */
+.notif-card { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 12px; padding: 14px; margin-bottom: 10px; display: flex; gap: 12px; align-items: flex-start; }
+.notif-icon { font-size: 18px; }
+.notif-text { font-size: 12px; color: #0F172A; font-weight: 500; line-height: 1.5; }
+.notif-time { font-size: 11px; color: #94A3B8; margin-top: 2px; }
+
+/* MINI EVENT */
+.mini-event { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 10px; padding: 10px 12px; display: flex; gap: 10px; align-items: center; margin-bottom: 8px; }
+.mini-event img { width: 40px; height: 40px; border-radius: 6px; object-fit: cover; }
+.mini-event h4 { font-size: 12px; font-weight: bold; color: #0F172A; }
+.mini-event p { font-size: 11px; color: #64748B; }
+
+footer { background-color: #F8F7FF; border-top: 2px solid #EDE9FE; padding: 40px; text-align: center; }
+footer .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 16px; }
+footer .footer-links a { text-decoration: none; color: #64748B; font-size: 13px; }
+footer p { font-size: 12px; color: #94A3B8; }

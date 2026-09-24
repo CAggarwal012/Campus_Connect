@@ -1,0 +1,70 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background-color: #ffffff; color: #0F172A; }
+
+.navbar { background-color: #ffffff; border-bottom: 2px solid #EDE9FE; padding: 14px 40px; display: flex; align-items: center; gap: 30px; }
+.navbar .logo { font-size: 20px; font-weight: bold; color: #7C3AED; text-decoration: none; margin-right: 20px; }
+.navbar a { text-decoration: none; color: #0F172A; font-size: 14px; font-weight: 500; }
+.navbar a:hover { color: #7C3AED; }
+.navbar .nav-btn { margin-left: auto; background-color: #7C3AED; color: #ffffff; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: bold; }
+
+.back-link { display: inline-block; padding: 16px 40px; color: #64748B; text-decoration: none; font-size: 13px; }
+.back-link:hover { color: #7C3AED; }
+
+.banner { position: relative; margin: 0 40px 32px 40px; border-radius: 16px; overflow: hidden; height: 280px; }
+.banner img { width: 100%; height: 100%; object-fit: cover; }
+.banner-overlay { position: absolute; inset: 0; background: linear-gradient(to right, rgba(0,0,0,0.7), transparent); display: flex; align-items: flex-end; padding: 28px; }
+.banner-text h1 { font-size: 32px; font-weight: bold; color: #ffffff; margin-bottom: 4px; }
+.banner-text p { color: rgba(255,255,255,0.7); font-size: 14px; }
+.prize-tag { position: absolute; top: 16px; right: 16px; background-color: #FDE68A; color: #78350F; font-size: 13px; font-weight: bold; padding: 8px 14px; border-radius: 8px; }
+
+.badge { display: inline-block; background-color: #EDE9FE; color: #7C3AED; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 20px; margin-bottom: 8px; }
+
+.layout { display: flex; gap: 28px; padding: 0 40px 60px 40px; align-items: flex-start; }
+
+.main-col { flex: 1; }
+.sidebar { width: 280px; flex-shrink: 0; }
+
+.card { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 12px; padding: 22px; margin-bottom: 20px; }
+.card h2 { font-size: 18px; font-weight: bold; color: #0F172A; margin-bottom: 14px; }
+
+.card p { font-size: 14px; color: #374151; line-height: 1.7; }
+
+.rule-list { list-style: none; padding: 0; }
+.rule-list li { font-size: 14px; color: #374151; padding: 6px 0; border-bottom: 1px solid #F1F0F9; display: flex; gap: 8px; }
+.rule-list li:last-child { border-bottom: none; }
+
+.schedule-item { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid #F1F0F9; }
+.schedule-item:last-child { border-bottom: none; }
+.time-col { min-width: 80px; text-align: right; }
+.time-col .time { font-size: 13px; font-weight: bold; color: #7C3AED; }
+.time-col .day { font-size: 11px; color: #94A3B8; }
+.divider { width: 2px; background-color: #EDE9FE; border-radius: 2px; }
+.act-col .act-name { font-size: 14px; font-weight: 500; color: #0F172A; }
+.act-col .act-loc { font-size: 12px; color: #94A3B8; margin-top: 2px; }
+
+.faq-item { border: 1px solid #EDE9FE; border-radius: 8px; margin-bottom: 8px; overflow: hidden; }
+.faq-q { font-size: 14px; font-weight: 500; color: #0F172A; padding: 12px 14px; background-color: #F8F7FF; }
+.faq-a { font-size: 13px; color: #374151; padding: 12px 14px; line-height: 1.6; background-color: #ffffff; border-top: 1px solid #EDE9FE; }
+
+/* SIDEBAR */
+.info-row { display: flex; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid #F1F0F9; }
+.info-row:last-child { border-bottom: none; }
+.info-icon { font-size: 18px; }
+.info-label { font-size: 11px; color: #94A3B8; }
+.info-value { font-size: 13px; font-weight: 500; color: #0F172A; }
+
+.progress-bar { background-color: #EDE9FE; border-radius: 4px; height: 8px; margin: 10px 0; }
+.progress-fill { background-color: #7C3AED; height: 8px; border-radius: 4px; }
+
+.btn-primary { display: block; background-color: #7C3AED; color: #ffffff; padding: 14px; border-radius: 10px; text-align: center; text-decoration: none; font-size: 15px; font-weight: bold; margin-bottom: 10px; }
+.btn-outline { display: block; border: 1px solid #EDE9FE; color: #64748B; padding: 10px; border-radius: 10px; text-align: center; text-decoration: none; font-size: 13px; }
+.btn-outline:hover { background-color: #F8F7FF; }
+
+.prize-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 12px; background-color: #F8F7FF; border-radius: 8px; margin-bottom: 8px; }
+.prize-row .prize-name { font-size: 13px; font-weight: 500; color: #0F172A; }
+.prize-row .prize-amount { font-size: 13px; font-weight: bold; color: #7C3AED; }
+
+footer { background-color: #F8F7FF; border-top: 2px solid #EDE9FE; padding: 40px; text-align: center; }
+footer .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 16px; }
+footer .footer-links a { text-decoration: none; color: #64748B; font-size: 13px; }
+footer p { font-size: 12px; color: #94A3B8; }
