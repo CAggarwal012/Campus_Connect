@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusConnect - Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="../index/index.html" class="logo">⚡ CampusConnect</a>
+    <a href="../index/index.html">Home</a>
+    <a href="../events/index.html">Events</a>
+    <a href="../clubs/index.html">Clubs</a>
+    <a href="../calendar/index.html">Calendar</a>
+    <a href="../dashboard/index.html">Dashboard</a>
+    <a href="../profile/index.html">Profile</a>
+    <a href="../dashboard/index.html" class="nav-btn">My Account</a>
+  </nav>
+
+  <a href="../event-detail/index.html" class="back-link">← Back to Event</a>
+
+  <div class="container">
+
+    <!-- REGISTRATION FORM -->
+    <div class="form-card" id="form-section">
+      <div class="form-header">
+        <div class="form-icon">🎪</div>
+        <div>
+          <h1>Register for TechFest 2026</h1>
+          <p>Oct 12–14 · Main Auditorium · Free Entry</p>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Full Name <span>*</span></label>
+          <input type="text" placeholder="e.g. Ananya Sharma">
+        </div>
+        <div class="form-group">
+          <label>Roll Number <span>*</span></label>
+          <input type="text" placeholder="e.g. 22CS047">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Email Address <span>*</span></label>
+          <input type="email" placeholder="ananya@college.edu">
+        </div>
+        <div class="form-group">
+          <label>Phone Number <span>*</span></label>
+          <input type="tel" placeholder="+91 98765 43210">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Year of Study <span>*</span></label>
+          <select>
+            <option value="">Select year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+            <option>5th Year (Int.)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Department <span>*</span></label>
+          <select>
+            <option value="">Select department</option>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+            <option>EEE</option>
+            <option>IT</option>
+            <option>MBA</option>
+            <option>MCA</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>T-Shirt Size</label>
+          <select>
+            <option value="">Select size</option>
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Team Name (optional)</label>
+          <input type="text" placeholder="e.g. CodeStorm">
+        </div>
+      </div>
+
+      <div class="form-group full">
+        <label>Dietary Preference</label>
+        <div class="radio-group">
+          <div class="radio-option selected">Vegetarian</div>
+          <div class="radio-option">Non-Vegetarian</div>
+          <div class="radio-option">Vegan</div>
+          <div class="radio-option">No Preference</div>
+        </div>
+      </div>
+
+      <div class="notice-box">
+        <div class="notice-title">📋 Important Notes</div>
+        <ul>
+          <li>• Bring your college ID for verification at the venue</li>
+          <li>• Your registration pass will be emailed within 24 hours</li>
+          <li>• Teams will be announced on Oct 11, 2026</li>
+        </ul>
+      </div>
+
+      <button class="btn-submit" onclick="showSuccess()">Complete Registration →</button>
+    </div>
+
+    <!-- SUCCESS STATE (hidden by default) -->
+    <div class="success-card" id="success-section" style="display:none;">
+      <div class="success-icon">✓</div>
+      <h2>You're In!</h2>
+      <p>Registration confirmed for <b>TechFest 2026</b></p>
+
+      <div class="reg-id-box">
+        <div class="label">Registration ID</div>
+        <div class="id">CC-2026-0847</div>
+        <div class="qr-box">
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#0F172A"></div>
+          <div class="qr-cell" style="background:#fff"></div>
+        </div>
+        <div style="font-size:12px;color:#94A3B8;margin-top:6px">Scan QR at entry gate</div>
+      </div>
+
+      <div class="email-notice">📧 Confirmation sent to <b>ananya@college.edu</b></div>
+
+      <a href="../dashboard/index.html" class="btn-primary">Go to Dashboard</a>
+      <a href="../events/index.html" class="btn-secondary">Explore More Events</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="../index/index.html">Home</a>
+      <a href="../events/index.html">Events</a>
+      <a href="../clubs/index.html">Clubs</a>
+      <a href="../calendar/index.html">Calendar</a>
+      <a href="../dashboard/index.html">Dashboard</a>
+      <a href="../profile/index.html">Profile</a>
+    </div>
+    <p>© 2026 CampusConnect. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showSuccess() {
+      document.getElementById('form-section').style.display = 'none';
+      document.getElementById('success-section').style.display = 'block';
+      window.scrollTo(0, 0);
+    }
+  </script>
+
+</body>
+</html>

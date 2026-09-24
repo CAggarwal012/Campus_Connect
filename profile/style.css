@@ -1,0 +1,61 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background-color: #F8F7FF; color: #0F172A; }
+
+.navbar { background-color: #ffffff; border-bottom: 2px solid #EDE9FE; padding: 14px 40px; display: flex; align-items: center; gap: 30px; }
+.navbar .logo { font-size: 20px; font-weight: bold; color: #7C3AED; text-decoration: none; margin-right: 20px; }
+.navbar a { text-decoration: none; color: #0F172A; font-size: 14px; font-weight: 500; }
+.navbar a:hover { color: #7C3AED; }
+.navbar .nav-btn { margin-left: auto; background-color: #7C3AED; color: #ffffff; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: bold; }
+
+.page-wrap { padding: 36px 40px 60px 40px; max-width: 960px; }
+
+/* PROFILE CARD */
+.profile-card { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 16px; overflow: hidden; margin-bottom: 24px; }
+.profile-banner { background-color: #7C3AED; height: 100px; }
+.profile-body { padding: 0 24px 24px 24px; }
+.profile-top { display: flex; align-items: flex-end; justify-content: space-between; margin-top: -36px; margin-bottom: 16px; }
+.profile-top img { width: 80px; height: 80px; border-radius: 14px; object-fit: cover; border: 4px solid #ffffff; }
+.btn-edit { background-color: #EDE9FE; color: #5B21B6; padding: 8px 18px; border-radius: 8px; border: none; font-size: 13px; font-weight: bold; cursor: pointer; text-decoration: none; }
+
+.profile-name { font-size: 22px; font-weight: bold; color: #0F172A; margin-bottom: 2px; }
+.profile-sub { font-size: 13px; color: #64748B; }
+
+.profile-stats { display: flex; gap: 16px; margin-top: 18px; }
+.pstat { flex: 1; background-color: #F8F7FF; border-radius: 10px; padding: 14px; text-align: center; }
+.pstat .val { font-size: 20px; font-weight: bold; color: #7C3AED; }
+.pstat .lbl { font-size: 11px; color: #64748B; margin-top: 2px; }
+
+/* TABS */
+.tabs { display: flex; gap: 2px; background-color: #EDE9FE; border-radius: 10px; padding: 4px; width: fit-content; margin-bottom: 20px; }
+.tab { padding: 8px 22px; border-radius: 8px; font-size: 13px; font-weight: 500; color: #64748B; text-decoration: none; }
+.tab.active { background-color: #ffffff; color: #7C3AED; font-weight: bold; }
+.tab:hover { color: #0F172A; }
+
+/* EVENTS TAB */
+.event-row { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 12px; padding: 14px 16px; display: flex; gap: 14px; align-items: center; margin-bottom: 10px; }
+.event-row img { width: 52px; height: 52px; border-radius: 8px; object-fit: cover; flex-shrink: 0; }
+.event-row .info { flex: 1; }
+.event-row .info h3 { font-size: 14px; font-weight: bold; color: #0F172A; margin-bottom: 2px; }
+.event-row .info p { font-size: 12px; color: #64748B; }
+.badge { display: inline-block; background-color: #EDE9FE; color: #7C3AED; font-size: 11px; font-weight: bold; padding: 2px 8px; border-radius: 10px; margin-top: 3px; }
+.badge-green { background-color: #DCFCE7; color: #16A34A; }
+.badge-upcoming { background-color: #EDE9FE; color: #7C3AED; }
+
+/* CLUBS TAB */
+.clubs-grid { display: flex; gap: 14px; flex-wrap: wrap; }
+.club-mini { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 12px; padding: 14px; display: flex; align-items: center; gap: 12px; width: 260px; }
+.club-mini img { width: 46px; height: 46px; border-radius: 8px; object-fit: cover; }
+.club-mini h4 { font-size: 13px; font-weight: bold; color: #0F172A; }
+.club-mini p { font-size: 11px; color: #64748B; margin-top: 2px; }
+
+/* CERTS TAB */
+.cert-card { background-color: #ffffff; border: 1px solid #EDE9FE; border-left: 4px solid #7C3AED; border-radius: 12px; padding: 18px; margin-bottom: 12px; }
+.cert-icon { font-size: 28px; margin-bottom: 10px; }
+.cert-title { font-size: 14px; font-weight: bold; color: #0F172A; margin-bottom: 4px; }
+.cert-meta { font-size: 12px; color: #64748B; }
+.cert-download { display: inline-block; margin-top: 10px; font-size: 12px; font-weight: bold; color: #7C3AED; text-decoration: none; }
+
+footer { background-color: #F8F7FF; border-top: 2px solid #EDE9FE; padding: 40px; text-align: center; }
+footer .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 16px; }
+footer .footer-links a { text-decoration: none; color: #64748B; font-size: 13px; }
+footer p { font-size: 12px; color: #94A3B8; }
