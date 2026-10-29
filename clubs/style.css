@@ -1,0 +1,45 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background-color: #ffffff; color: #0F172A; }
+
+.navbar { background-color: #ffffff; border-bottom: 2px solid #EDE9FE; padding: 14px 40px; display: flex; align-items: center; gap: 30px; }
+.navbar .logo { font-size: 20px; font-weight: bold; color: #7C3AED; text-decoration: none; margin-right: 20px; }
+.navbar a { text-decoration: none; color: #0F172A; font-size: 14px; font-weight: 500; }
+.navbar a:hover { color: #7C3AED; }
+.navbar .nav-btn { margin-left: auto; background-color: #7C3AED; color: #ffffff; padding: 8px 20px; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: bold; }
+
+.page-header { background-color: #F5F3FF; padding: 40px; border-bottom: 2px solid #EDE9FE; display: flex; align-items: center; justify-content: space-between; }
+.page-header h1 { font-size: 30px; font-weight: bold; color: #0F172A; margin-bottom: 4px; }
+.page-header p { font-size: 14px; color: #64748B; }
+.header-stats { display: flex; gap: 16px; }
+.hstat { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 10px; padding: 14px 22px; text-align: center; }
+.hstat .val { font-size: 20px; font-weight: bold; color: #7C3AED; }
+.hstat .lbl { font-size: 12px; color: #64748B; }
+
+.filter-bar { padding: 20px 40px; background-color: #ffffff; border-bottom: 1px solid #EDE9FE; display: flex; gap: 14px; align-items: center; }
+.filter-bar input { padding: 10px 16px; border: 1px solid #DDD6FE; border-radius: 8px; font-size: 14px; width: 280px; outline: none; }
+.filter-bar input:focus { border-color: #7C3AED; }
+
+.category-pills { padding: 18px 40px; display: flex; gap: 10px; }
+.pill { padding: 8px 18px; border-radius: 20px; border: 1px solid #DDD6FE; font-size: 13px; font-weight: 500; color: #64748B; background-color: #ffffff; text-decoration: none; }
+.pill.active { background-color: #7C3AED; color: #ffffff; border-color: #7C3AED; }
+.pill:hover { border-color: #7C3AED; color: #7C3AED; }
+
+.content { padding: 20px 40px 60px 40px; }
+
+.cards-grid { display: flex; gap: 20px; flex-wrap: wrap; }
+
+.club-card { background-color: #ffffff; border: 1px solid #EDE9FE; border-radius: 14px; width: 300px; overflow: hidden; }
+.club-card img { width: 100%; height: 150px; object-fit: cover; }
+.club-card .card-body { padding: 16px; }
+.club-card .card-title { font-size: 15px; font-weight: bold; color: #0F172A; margin-bottom: 4px; margin-top: 6px; }
+.club-card .card-desc { font-size: 12px; color: #64748B; line-height: 1.5; margin-bottom: 10px; }
+.club-card .card-meta { font-size: 12px; color: #64748B; margin-bottom: 14px; }
+.badge { display: inline-block; background-color: #EDE9FE; color: #7C3AED; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 20px; }
+.btn-join { width: 100%; background-color: #7C3AED; color: #ffffff; padding: 10px; border-radius: 8px; border: none; font-size: 13px; font-weight: bold; cursor: pointer; }
+.btn-join:hover { background-color: #6D28D9; }
+.btn-joined { width: 100%; background-color: #DCFCE7; color: #16A34A; padding: 10px; border-radius: 8px; border: none; font-size: 13px; font-weight: bold; cursor: pointer; }
+
+footer { background-color: #F8F7FF; border-top: 2px solid #EDE9FE; padding: 40px; text-align: center; }
+footer .footer-links { display: flex; gap: 24px; justify-content: center; margin-bottom: 16px; }
+footer .footer-links a { text-decoration: none; color: #64748B; font-size: 13px; }
+footer p { font-size: 12px; color: #94A3B8; }

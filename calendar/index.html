@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CampusConnect - Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="../index/index.html" class="logo">⚡ CampusConnect</a>
+    <a href="../index/index.html">Home</a>
+    <a href="../events/index.html">Events</a>
+    <a href="../clubs/index.html">Clubs</a>
+    <a href="../calendar/index.html">Calendar</a>
+    <a href="../dashboard/index.html">Dashboard</a>
+    <a href="../profile/index.html">Profile</a>
+    <a href="../dashboard/index.html" class="nav-btn">My Account</a>
+  </nav>
+
+  <div class="page-wrap">
+
+    <div class="page-header-row">
+      <div>
+        <h1>Event Calendar</h1>
+        <p>All upcoming events at a glance</p>
+      </div>
+      <div class="month-nav">
+        <button class="month-btn">‹</button>
+        <div class="month-name">October 2026</div>
+        <button class="month-btn">›</button>
+      </div>
+    </div>
+
+    <!-- CALENDAR -->
+    <div class="calendar-card">
+
+      <div class="day-headers">
+        <div class="day-header">Sun</div>
+        <div class="day-header">Mon</div>
+        <div class="day-header">Tue</div>
+        <div class="day-header">Wed</div>
+        <div class="day-header">Thu</div>
+        <div class="day-header">Fri</div>
+        <div class="day-header">Sat</div>
+      </div>
+
+      <!-- October 2026 starts on Thursday (index 4) -->
+      <div class="cal-grid">
+
+        <!-- Week 1: empty Sun-Wed, then 1-3 -->
+        <div class="cal-cell empty"></div>
+        <div class="cal-cell empty"></div>
+        <div class="cal-cell empty"></div>
+        <div class="cal-cell empty"></div>
+        <div class="cal-cell"><div class="day-num">1</div></div>
+        <div class="cal-cell"><div class="day-num">2</div></div>
+        <div class="cal-cell"><div class="day-num">3</div></div>
+
+        <!-- Week 2: 4–10 -->
+        <div class="cal-cell"><div class="day-num">4</div></div>
+        <div class="cal-cell"><div class="day-num">5</div></div>
+        <div class="cal-cell"><div class="day-num">6</div></div>
+        <div class="cal-cell"><div class="day-num">7</div></div>
+        <div class="cal-cell"><div class="day-num">8</div></div>
+        <div class="cal-cell"><div class="day-num">9</div></div>
+        <div class="cal-cell"><div class="day-num">10</div></div>
+
+        <!-- Week 3: 11–17 -->
+        <div class="cal-cell"><div class="day-num">11</div></div>
+        <div class="cal-cell">
+          <div class="day-num">12</div>
+          <a href="../event-detail/index.html" class="cal-event" style="background:#EDE9FE;color:#7C3AED">TechFest 2026</a>
+        </div>
+        <div class="cal-cell">
+          <div class="day-num">13</div>
+          <a href="../event-detail/index.html" class="cal-event" style="background:#EDE9FE;color:#7C3AED">TechFest Day 2</a>
+        </div>
+        <div class="cal-cell">
+          <div class="day-num">14</div>
+          <a href="../event-detail/index.html" class="cal-event" style="background:#EDE9FE;color:#7C3AED">TechFest Finals</a>
+        </div>
+        <div class="cal-cell"><div class="day-num">15</div></div>
+        <div class="cal-cell"><div class="day-num">16</div></div>
+        <div class="cal-cell"><div class="day-num">17</div></div>
+
+        <!-- Week 4: 18–24 -->
+        <div class="cal-cell">
+          <div class="day-num">18</div>
+          <a href="../event-detail/index.html" class="cal-event" style="background:#FCE7F3;color:#BE185D">Culturals Night</a>
+        </div>
+        <div class="cal-cell"><div class="day-num">19</div></div>
+        <div class="cal-cell"><div class="day-num">20</div></div>
+        <div class="cal-cell"><div class="day-num">21</div></div>
+        <div class="cal-cell">
+          <div class="day-num">22</div>
+          <a href="../event-detail/index.html" class="cal-event" style="background:#DBEAFE;color:#1D4ED8">Business Summit</a>
+        </div>
+        <div class="cal-cell today">
+          <div class="day-num today-num">23</div>
+          <span style="font-size:10px;color:#7C3AED;font-weight:bold">Today</span>
+        </div>
+        <div class="cal-cell"><div class="day-num">24</div></div>
+
+        <!-- Week 5: 25–31 -->
+        <div class="cal-cell"><div class="day-num">25</div></div>
+        <div class="cal-cell"><div class="day-num">26</div></div>
+        <div class="cal-cell"><div class="day-num">27</div></div>
+        <div class="cal-cell"><div class="day-num">28</div></div>
+        <div class="cal-cell"><div class="day-num">29</div></div>
+        <div class="cal-cell"><div class="day-num">30</div></div>
+        <div class="cal-cell"><div class="day-num">31</div></div>
+
+      </div>
+    </div>
+
+    <!-- UPCOMING -->
+    <div class="section-title">Upcoming This Month</div>
+    <div class="upcoming-grid">
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#7C3AED">🎪</div>
+        <div>
+          <h4>TechFest 2026</h4>
+          <p>Oct 12–14 · Main Auditorium</p>
+        </div>
+      </div>
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#EC4899">🎭</div>
+        <div>
+          <h4>Culturals Night</h4>
+          <p>Oct 18 · Open Air Theatre</p>
+        </div>
+      </div>
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#0EA5E9">💼</div>
+        <div>
+          <h4>Business Summit</h4>
+          <p>Oct 22 · Seminar Hall A</p>
+        </div>
+      </div>
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#10B981">🤖</div>
+        <div>
+          <h4>Robotics Workshop</h4>
+          <p>Nov 2 · Lab Block 3</p>
+        </div>
+      </div>
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#F59E0B">📷</div>
+        <div>
+          <h4>Photography Walk</h4>
+          <p>Nov 5 · Campus Grounds</p>
+        </div>
+      </div>
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#EF4444">🏏</div>
+        <div>
+          <h4>Inter-College Cricket</h4>
+          <p>Nov 8–10 · Sports Ground</p>
+        </div>
+      </div>
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#8B5CF6">🧠</div>
+        <div>
+          <h4>AI/ML Bootcamp</h4>
+          <p>Nov 15 · CS Dept Lab</p>
+        </div>
+      </div>
+
+      <div class="upcoming-card">
+        <div class="upcoming-icon" style="background:#0D9488">📚</div>
+        <div>
+          <h4>Literary Fest</h4>
+          <p>Nov 20 · Library Hall</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer>
+    <div class="footer-links">
+      <a href="../index/index.html">Home</a>
+      <a href="../events/index.html">Events</a>
+      <a href="../clubs/index.html">Clubs</a>
+      <a href="../calendar/index.html">Calendar</a>
+      <a href="../dashboard/index.html">Dashboard</a>
+      <a href="../profile/index.html">Profile</a>
+    </div>
+    <p>© 2026 CampusConnect. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
