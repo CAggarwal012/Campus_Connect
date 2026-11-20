@@ -1,0 +1,35 @@
+{
+  "name": "campus-connect",
+  "version": "1.0.0",
+  "description": "CampusConnect - Comprehensive College Event Discovery & Registration Platform with Node/Express Backend, MongoDB CRUD, Local JSON File Storage, and External APIs Integration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node backend/seed.js",
+    "test": "node backend/test/api-test-runner.js"
+  },
+  "keywords": [
+    "campus-connect",
+    "express",
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "rest-api",
+    "crud",
+    "json-storage",
+    "external-api"
+  ],
+  "author": "Chaitanya Aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
