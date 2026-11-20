@@ -1,0 +1,36 @@
+[
+  {
+    "id": "reg-001",
+    "registrationId": "CC-2026-0847",
+    "eventId": "evt-101",
+    "eventTitle": "TechFest 2026",
+    "fullName": "Rohan Mehta",
+    "rollNumber": "22ECE034",
+    "email": "rohan.mehta@college.edu",
+    "phone": "+91 98765 43210",
+    "yearOfStudy": "3rd Year",
+    "department": "ECE",
+    "tShirtSize": "L",
+    "teamName": "ByteForce",
+    "dietaryPreference": "Vegetarian",
+    "status": "confirmed",
+    "registeredAt": "2026-09-28T14:30:00.000Z"
+  },
+  {
+    "id": "reg-002",
+    "registrationId": "CC-2026-0848",
+    "eventId": "evt-102",
+    "eventTitle": "Culturals Night",
+    "fullName": "Ananya Sharma",
+    "rollNumber": "22CS047",
+    "email": "ananya.sharma@college.edu",
+    "phone": "+91 98111 22334",
+    "yearOfStudy": "3rd Year",
+    "department": "CSE",
+    "tShirtSize": "M",
+    "teamName": "",
+    "dietaryPreference": "Vegetarian",
+    "status": "confirmed",
+    "registeredAt": "2026-10-01T09:15:00.000Z"
+  }
+]

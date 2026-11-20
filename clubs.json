@@ -1,0 +1,52 @@
+[
+  {
+    "id": "club-01",
+    "name": "CSE Society",
+    "category": "Technical",
+    "description": "Driving tech innovation through hackathons, workshops, and coding competitions.",
+    "memberCount": 340,
+    "eventsPerYear": 12,
+    "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&h=200&fit=crop&auto=format",
+    "isJoined": true
+  },
+  {
+    "id": "club-02",
+    "name": "Cultural Club",
+    "category": "Cultural",
+    "description": "Celebrating art, music, dance, and drama across all traditions and cultures.",
+    "memberCount": 520,
+    "eventsPerYear": 18,
+    "imageUrl": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=400&h=200&fit=crop&auto=format",
+    "isJoined": false
+  },
+  {
+    "id": "club-03",
+    "name": "Robotics Club",
+    "category": "Technical",
+    "description": "Building intelligent machines from scratch — sensors, motors, and autonomy.",
+    "memberCount": 180,
+    "eventsPerYear": 8,
+    "imageUrl": "https://images.unsplash.com/photo-1561736778-92e52a7769ef?w=400&h=200&fit=crop&auto=format",
+    "isJoined": true
+  },
+  {
+    "id": "club-04",
+    "name": "E-Cell (Entrepreneurship)",
+    "category": "Business",
+    "description": "Nurturing startup ideas, connecting with angel investors, and organizing pitch nights.",
+    "memberCount": 210,
+    "eventsPerYear": 10,
+    "imageUrl": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=200&fit=crop&auto=format",
+    "isJoined": false
+  },
+  {
+    "id": "club-05",
+    "name": "Photography Club",
+    "category": "Creative",
+    "description": "Visual storytelling through lenses, photo-walks, exhibitions, and digital editing masterclasses.",
+    "memberCount": 145,
+    "eventsPerYear": 6,
+    "imageUrl": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=400&h=200&fit=crop&auto=format",
+    "isJoined": false
+  }
+]
